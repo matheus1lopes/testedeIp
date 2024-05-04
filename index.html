@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>testeIP</title>
+</head>
+<body>
+    <h1>olá, está rastreado gui</h1>
+    <style>
+     h1   {
+            background-color: blue;
+            color: white;
+            font-size: 20px;
+            font-family: 'Courier New', Courier, monospace;
+        }
+        body {
+            background-color: red;
+            color: white;
+            font-size: 20px;
+            font-family: 'Courier New', Courier, monospace;
+        }
+    </style>
+    <script language="javascript">
+        function LocalizaIP_done(ip_data) {
+        if (!ip_data['error'] //your code goes here
+        alert('Localizei IP: '+ip_data['city']+'-'+ip_data['country']+' (lat: '+ip_data['latitude']+' , lon: '+ip_data['longitude']+')');
+        }
+    </script>
+</body>
+</html>
